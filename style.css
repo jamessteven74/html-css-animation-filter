@@ -78,12 +78,30 @@
     filter: grayscale();
 }
 
+.ex-7-img:hover {
+    filter: grayscale(.6) sepia(.5);
+    transition: 2s;
+}
+.ex-8-img:hover{
+    filter: contrast(0.8) hue-rotate(272deg);
+    border-radius: 150px 10px;
+    transition: 5s;
+}
+    
+/* fine- esercizio 6-7-8 */
 
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+
+.ex-9-img{
+    border-radius: 20px 20px;
+    filter: drop-shadow(19px 26px 6px black);
+    transform: scale(1.5);
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
