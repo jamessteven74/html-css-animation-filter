@@ -88,7 +88,7 @@
     transition: 5s;
 }
     
-/* fine- esercizio 6-7-8 */
+/* fine-esercizio 6-7-8 */
 
 
 .ex-9-img {
@@ -101,10 +101,21 @@
     filter: drop-shadow(19px 26px 6px black);
     transform: scale(1.5);
 }
+/* fine-esercizio-9 */
 
 .ex-10-icon {
     font-size: 60px;
 }
+
+.ex-10-icon {
+    animation: spinner 1s cubic-bezier(0, 0, 0.33, 1.01) infinite;
+}
+@keyframes spinner {
+    0% {
+        transform: rotate(2turn);
+    }
+}
+
 .ex-11-icon {
     font-size: 60px;
 }
