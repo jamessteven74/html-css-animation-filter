@@ -75,11 +75,11 @@
 }
 
 .ex-6-img:hover{
-    filter: grayscale();
+    filter: grayscale(100%);
 }
 
 .ex-7-img:hover {
-    filter: grayscale(.6) sepia(.5);
+    filter: blur(3px) sepia(100%);
     transition: 2s;
 }
 .ex-8-img:hover{
