@@ -96,7 +96,7 @@
     width: 400px;
 }
 
-.ex-9-img{
+.ex-9-img:hover{
     border-radius: 20px 20px;
     filter: drop-shadow(19px 26px 6px black);
     transform: scale(1.5);
