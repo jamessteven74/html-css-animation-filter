@@ -201,7 +201,7 @@
 
 .ex-12-button:hover .ex-12-bottom-white{
      animation: to_left;
-    animation-duration: 3s;
+    animation-duration: 750ms;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
@@ -222,3 +222,86 @@
         right: 20%;
     }
 }
+
+
+/* +++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++ */
+
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: to_right_complete;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+   /*  border: 1px solid red; */
+}
+
+
+@keyframes to_right_complete{
+    0%{
+        top: -10px;
+        left: 10%;
+    }
+
+    25%{
+        top: -10px;
+        left: calc(100% - 50px);
+    }
+    
+    50%{
+        top: calc(100% - 10px);
+        left: calc(100% - 50px);
+    }
+
+    75%{
+        top: calc(100% - 20px);
+        left: -20px;
+    }
+
+    100%{
+        top: -10px;
+        left: -20px;
+    }
+
+}
+
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: to_left_complete;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+   /*  border: 1px solid green; */
+}
+
+@keyframes to_left_complete {
+    0%{
+        bottom: -10px;
+        right: 20%;
+    }
+
+    25%{
+        bottom: -10px;
+        right: calc(100% - 50px);
+    }
+
+    50%{
+        bottom: calc(100% - 10px);
+        right: calc(100% - 50px);
+
+    }
+
+    75%{
+        bottom: calc(100% - 10px);
+        right: -10px;
+    }
+
+    100%{
+        bottom: -10px;
+        right: -10px;
+    }
+}
+
+/* fine-sercizio-12-13 */
+
+
